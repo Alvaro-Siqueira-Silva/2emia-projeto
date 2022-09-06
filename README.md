@@ -1,5 +1,5 @@
 # 2emia-projeto
-descrição
+projeto 3-tri 2022
 ## Autores
 -Álvaro de Oliveira
 -Pedro Gutierre
