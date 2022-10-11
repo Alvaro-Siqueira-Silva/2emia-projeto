@@ -1,5 +1,5 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/Alvaro-Siqueira-Silva/2emia-projeto">
-<img src="/w3c-validation/:parser?preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.nu%2F">  
+<img alt="w3c validador" src="/w3c-validation/:parser?preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.nu%2F">  
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
