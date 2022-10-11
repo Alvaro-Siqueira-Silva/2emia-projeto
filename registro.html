@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>União da Valorização da Vida</title>
     <meta
-      name="União Valorização da Vida"
-      content="Site que hospeda artigos de terceiros sobre saúde mental, links de ajuda para saúde mental, projeto acadêmico saude mental informativo e util"
+      name="description"
+      content="Descrever o site (máximo 150 caracteres)"
     >
     <!-- CSS bootstrap -->
     <link
@@ -58,7 +58,7 @@
             </li>
 
             <li><a class="navbar-brand d-none d-lg-block" href="index.html">
-              <img class="uvvlogodesc" src="img/uvvlogo.png" alt="Logo site uvv" >
+              <img class="uvvlogodesc" src="img/uvvlogo.png" alt="Nike" >
             </a></li>
 
             <li class="nav-item">
@@ -74,52 +74,20 @@
       </div>
     </nav>
 
-    <!-- Banner -->
-    <main
-      class="container-fluid d-flex flex-column justify-content-end align-items-center"
-    >
-      <a href="links.html" class="btn btn-success btn-lg btn-block">Links Úteis de Ajuda</a>
-
-    </main>
-
-  
-
-    <!-- Cartões destaque (conteúdo dinâmico)-->
-    <section class="destaque container flexDestaque">
-      
-      <div class="card mb-3 cartao" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/setembro-amarelo-1280x720-1.jpg" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title"> O que é Setembro Amarelo e qual a sua importância?</h5>
-              <p class="card-text">Fatores como o crescimento da pobreza e do desemprego, o abuso de álcool e drogas, são os grandes responsáveis por influenciar a saúde mental do brasileiro, trazendo um aumento na incidência de transtornos psíquicos.</p>
-              <a href="artigo1.html" class="btn btn-primary">Ver matéria</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3 cartao" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/dep.jpeg" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">DEPRESSÃO: A NECESSIDADE DE ESCUTA PARA O APOIO</h5>
-              <p class="card-text">Um em cada dez brasileiros com mais de 18 anos já recebeu diagnóstico de depressão, segundo o Plano Nacional de Saúde divulgado em 2020</p>
-              <a href="artigo2.html" class="btn btn-primary">Ver matéria</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-
-
+    <section class="constiner-fluid text-center">
+    <h1  class="container text-center">Cadastrar um artigo</h1>
+    <form action="post" method="post">
+        <label class="form-label">Título:</label>
+        <input type="text" name="titulo" required class="form-control"><br>
+        <label class="form-label">descrição:</label>
+        <input type="text" name="descricao" required class="form-control"><br>
+        <label class="form-label">Imagem:</label>
+        <input type="file" name="imagem" required class="form-control btn-file"><br>
+        <label class="form-label">Texto:</label>
+        <textarea name="texto" cols="30" rows="10" required class="form-control"></textarea><br>
+        <input type="submit" value="Gravar" class="btn btn-warning">
+    </form>
+</section>
     <!-- Rodapé -->
     <footer class="container-fluid">
       <div class="container flexFooter">
