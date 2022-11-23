@@ -17,3 +17,6 @@ Um site que hospeda diversos artigos sobre saúde mental e métodos de autoajuda
 - Andrey Nagata
 - Henrique Monteiro
 - Bruno Magaldi
+
+# Prints de tela do projeto
+![image](https://user-images.githubusercontent.com/84384180/203592319-bceeec90-ada1-4716-be4c-65a14e5d5a63.png)
