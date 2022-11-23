@@ -20,3 +20,5 @@ Um site que hospeda diversos artigos sobre saúde mental e métodos de autoajuda
 
 # Prints de tela do projeto
 ![image](https://user-images.githubusercontent.com/84384180/203592319-bceeec90-ada1-4716-be4c-65a14e5d5a63.png)
+![image](https://user-images.githubusercontent.com/84384180/203592516-bb5b4975-9863-4e37-9b14-17a561e0ad92.png)
+
